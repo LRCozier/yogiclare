@@ -4,10 +4,10 @@ const Footer = () => {
 
   return(
     <>
-    <div>
+    <div className="footer-container">
       <footer>
         <p>&copy; 2025 Yogi Claire. All rights reserved.</p>
-          <div class="social-links">
+          <div className="social-links">
               <a href="#">Facebook</a>
               <a href="#">Instagram</a>
           </div>

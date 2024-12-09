@@ -38,7 +38,6 @@ const ContactForm = () => {
   return (
     <>
       <div className="contact-form-container">
-        <h2>Contact Us</h2>
         {submitted && <p className="success-message">Thank you for your message!</p>}
         <form onSubmit={handleSubmit}>
           <div className="form-group">

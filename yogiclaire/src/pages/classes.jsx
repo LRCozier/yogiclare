@@ -8,7 +8,9 @@ const Classes = () => {
   ];
 
   return (
-    <section className="classes">
+    <>
+    <div className="container">
+    <section className="yogiclaire-section">
       <h2>Our Classes</h2>
       <div className="class-list">
         {classList.map((yogaClass, index) => (
@@ -21,6 +23,8 @@ const Classes = () => {
         ))}
       </div>
     </section>
+    </div>
+    </>
   );
 }
 

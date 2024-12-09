@@ -5,9 +5,13 @@ const Contact = () => {
 
   return (
     <>
-    <h2>Contact</h2>
-    <p></p>
-    <ContactForm/>
+    <div className="container">
+      <section className="yogiclaire-section">
+        <h2>Contact</h2>
+        <p></p>
+        <ContactForm/>
+      </section>
+    </div>
     </>
   )
 }

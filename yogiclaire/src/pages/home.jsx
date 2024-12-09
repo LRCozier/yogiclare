@@ -8,8 +8,8 @@ const Home = () => {
       <section className="yogiclaire-section">
         <h1>Yogi Claire</h1>
         <p>Unite Your Body, Spirit & Mind</p>
-        </section>
-        </div>
+      </section>
+    </div>
     </>
   )
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { SocialIcon } from "react-social-icons";
 
 const Footer = () => {
 
@@ -8,8 +9,8 @@ const Footer = () => {
       <footer>
         <p>&copy; 2025 Yogi Claire. All rights reserved.</p>
           <div className="social-links">
-              <a href="#">Facebook</a>
-              <a href="#">Instagram</a>
+              <SocialIcon network="facebook" />
+              <SocialIcon network="instagram"/>
           </div>
       </footer>
     </div>

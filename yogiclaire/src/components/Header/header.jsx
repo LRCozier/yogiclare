@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../Navbar/navbar";
 
 const Header = () => {
 
@@ -6,6 +7,7 @@ const Header = () => {
     <>
     <Header>
       <div class="logo">Yogi Claire</div>
+      <Navbar/>
     </Header></>
   )
 }

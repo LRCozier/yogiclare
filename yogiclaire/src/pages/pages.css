@@ -1,0 +1,19 @@
+/* SECTION STYLING */
+.yogiclaire-section #hero-section{
+  background-image: url('./assets/images/heropicture.jpg');
+}
+
+/* BUTTONS */
+button {
+  border-radius: 8px;
+}
+
+/* START - MOBILE STYLING*/
+@media screen and (max-width: 767px) and (orientation: portrait) {
+  .yogiclaire-section #hero-section{
+    background-position: center center;
+    background-size: cover;
+  }
+}
+
+/* END - MOBILE STYLING*
